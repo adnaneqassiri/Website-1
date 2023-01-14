@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link rel="stylesheet" href="CSS/main.css" />
+	<link rel="stylesheet" href="CSS/framework.css" />
+	<link rel="stylesheet" href="CSS/all.min.css" />
+	<link rel="stylesheet" href="CSS/normalize.css" />
+	<link rel="preconnect" href="https://fonts.googleapis.com" />
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap"
+		rel="stylesheet" />
+
+	<title>Settings</title>
+</head>
+
+<body>
+	<div class="page d-flex">
+		<div class="side-bar p-rel bg-white">
+			<h3 class="p-rel txt-c mt-0">FIEX56</h3>
+			<ul>
+				<li>
+					<a class=" d-flex align-center fs-14 c-black rad-6 p-10" href="index.html">
+						<i class="fa-solid fa-house fa-fw"></i>
+						<span>DashBoard</span>
+					</a>
+				</li>
+				<li>
+					<a class=" active d-flex align-center fs-14 c-black rad-6 p-10" href="settings.html">
+						<i class="fa-solid fa-gears"></i>
+						<span> Settings</span>
+					</a>
+				</li>
+				<li>
+					<a class="d-flex align-center fs-14 c-black rad-6 p-10" href="profile.html">
+						<i class="fa-solid fa-user"></i>
+						<span> Profile</span>
+					</a>
+				</li>
+				<li>
+					<a class="d-flex align-center fs-14 c-black rad-6 p-10" href="projects.html">
+						<i class="fa-solid fa-diagram-project"></i>
+						<span> Projects</span>
+					</a>
+				</li>
+				<li>
+					<a class="d-flex align-center fs-14 c-black rad-6 p-10" href="courses.html">
+						<i class="fa-solid fa-graduation-cap"></i>
+						<span> Courses</span>
+					</a>
+				</li>
+				<li>
+					<a class="d-flex align-center fs-14 c-black rad-6 p-10" href="friends.html">
+						<i class="fa-solid fa-people-group"></i>
+						<span> Friends</span>
+					</a>
+				</li>
+				<li>
+					<a class="d-flex align-center fs-14 c-black rad-6 p-10" href="files.html">
+						<i class="fa-solid fa-file"></i>
+						<span> Files</span>
+					</a>
+				</li>
+				<li>
+					<a class="d-flex align-center fs-14 c-black rad-6 p-10" href="plans.html">
+						<i class="fa-solid fa-solar-panel"></i>
+						<span> Plans</span>
+					</a>
+				</li>
+			</ul>
+		</div>
+		<div class="content">
+			<!-- Start Header -->
+			<div class="header bg-white">
+				<div class="search p-rel">
+					<input type="text" placeholder="Anything" />
+				</div>
+				<div class="icons d-flex align-center">
+					<div class="notification p-rel">
+						<i class="fa-regular fa-bell"></i>
+					</div>
+					<div class="user">
+						<img src="imgs/avatar.png" alt="user" />
+					</div>
+				</div>
+			</div>
+			<!-- Start Header -->
+			<h1 class="p-rel">Settings</h1>
+			<!-- <div class="toggle">
+					<label>
+						<input class="check-box" type="checkbox">
+						<div class="check-swith"></div>
+					</label>
+				</div> -->
+			<div class="wrapper d-grid gab-20">
+				<div class="site-control bg-white p-20">
+					<h2 class="heading">Site Control</h2>
+					<p class="second-heading">Control the website f there is a maintenance </p>
+					<div class="d-flex align-center space-between">
+						<div>
+							<h3>Website Control</h3>
+							<p class="second-heading">Open\Close website and type the reason</p>
+						</div>
+						<div class="toggle">
+							<label>
+								<input class="check-box" type="checkbox" checked>
+								<div class="check-swith"></div>
+							</label>
+						</div>
+					</div>
+					<textarea name="" id="" cols="30" rows="10" placeholder="Why!"></textarea>
+				</div>
+				<div class="general-info bg-white p-20">
+					<h2 class="heading">General Info</h2>
+					<p class="second-heading">General Infos about your Account</p>
+					<div class="title">First name</div>
+					<input type="text" placeholder="first name">
+					<br>
+					<div class="title">Last name</div>
+					<input type="text" placeholder="last name">
+					<div class="d-flex align-end space-between">
+						<div>
+							<div class="title">Email</div>
+							<input type="mail" placeholder="example@exp.exp">
+						</div>
+						<span class="c-blue">Change</span>
+					</div>
+				</div>
+				<div class="security-info bg-white p-20">
+					<h2 class="heading">
+						Security Info
+					</h2>
+					<p class="second-heading">Security infos about your acc</p>
+					<div class="d-flex align-center space-between">
+						<div>
+						  <h5>Password</h5>
+						  <span class="second-heading fs-16">Last change on 25-02-2022</span>
+						</div>
+						<button class="btn-shape bg-blue c-white">Change</button>
+					</div>
+					<div class="d-flex align-center space-between">
+						<div>
+						  <h5>Two-factor authentication</h5>
+						  <span class="second-heading fs-16">Enable/Disable the feature</span>
+						</div>
+						<div class="toggle">
+							<label>
+								<input type="checkbox"  class="checkbox" checked>
+								<div class="check-switch"></div>
+							</label>
+						</div>
+					</div>
+					<div class="d-flex align-center space-between">
+						<div>
+						  <h5>Devices</h5>
+						  <span class="second-heading fs-16">Check the login devices</span>
+						</div>
+						<button class="btn-shape c-black">check</button>
+					</div>
+				</div>
+				<div class="social-info bg-white p-20">
+					<h2 class="heading">Social Info</h2>
+					<p class="second-heading">Social Media information</p>
+					<div>
+						<div class="icon">
+							<i class="fa-brands fa-twitter"></i>
+						</div>
+						<p>Twitter Username</p>
+					</div>
+					<div>
+						<div class="icon">
+							<i class="fa-brands fa-instagram"></i>
+						</div>
+						<p>Instagram Username</p>
+					</div>
+					<div>
+						<div class="icon">
+							<i class="fa-brands fa-facebook-f"></i>
+						</div>
+						<p>Facebook Username</p>
+					</div>
+					<div>
+						<div class="icon">
+							<i class="fa-brands fa-youtube"></i>
+						</div>
+						<p>Youtube Username</p>
+					</div>
+				</div>
+				<div class="widgets-control bg-white p-20">
+					<h2 class="heading">
+						Widgets Control
+					</h2>
+					<p class="second-heading">Show\Hide Widget</p>
+					<div>
+						<input type="checkbox" checked>
+						<span>Quick Draft</span>
+					</div>
+					<div>
+						<input type="checkbox" checked>
+						<span>Yearly Target</span>
+					</div>
+					<div>
+						<input type="checkbox" checked>
+						<span>Tickets Statistics</span>
+					</div>
+					<div>
+						<input type="checkbox" checked>
+						<span>Latest News</span>
+					</div>
+					<div>
+						<input type="checkbox" >
+						<span>Latest tasks</span>
+					</div>
+					<div>
+						<input type="checkbox" checked>
+						<span>Top Search Items</span>
+					</div>
+				</div>
+				<div class="backup-manager bg-white p-20">
+					<h2 class="heading">Backup Manager</h2>
+					<p class="second-heading">Control backup time and location</p>
+					<div>
+						<input type="radio" checked>
+						<span>Daily</span>
+					</div>
+					<div>
+						<input type="radio" >
+						<span>Weekly</span>
+					</div>
+					<div>
+						<input type="radio" >
+						<span>Monthly</span>
+					</div>
+					<div class="server d-flex">
+						<div>
+							<i class="fa-solid fa-server"></i>
+							<span>Megaman</span>
+						</div>
+						<div class="active">
+							<i class="fa-solid fa-server"></i>
+							<span>Zero</span>
+						</div>
+						<div>
+							<i class="fa-solid fa-server"></i>
+							<span>Sigma</span>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+</body>
+</html>

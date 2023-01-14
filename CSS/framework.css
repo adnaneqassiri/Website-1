@@ -1,0 +1,153 @@
+:root {
+  --blue-color: #0075ff;
+  --blue-alt-color: #0d69d5;
+  --orange-color: #f59e5b;
+  --green-color: #22c55e;
+  --red-color: #f44336;
+  --gray-color: #888;
+  --gray-alt-color: #8888884f;
+}
+/* Start Box */
+.d-flex {
+  display: flex;
+}
+.d-grid {
+  display: grid;
+}
+.gab-20 {
+  gap: 20px;
+}
+.align-center {
+  align-items: center;
+}
+.align-start {
+  align-items: flex-start;
+}
+.align-end {
+  align-items: end;
+}
+.rad-6 {
+  border-radius: 6px;
+}
+.rad-10 {
+  border-radius: 10px;
+}
+.space-between {
+  justify-content: space-between;
+}
+.space-around {
+  justify-content: space-around;
+}
+
+/* End Box */
+/* Start padding margin */
+
+.p-10 {
+  padding: 10px;
+}
+.m-10 {
+  margin: 10px;
+}
+.p-20 {
+  padding: 20px;
+}
+.mb-20 {
+  margin-bottom: 20px;
+}
+.m-20 {
+  margin: 20px;
+}
+.mt-0 {
+  margin-top: 0px;
+}
+.mt-20 {
+  margin-top: 20px;
+}
+.mt-5 {
+  margin-top: 5px;
+}
+.m-0 {
+  margin: 0px;
+}
+/* End Padding Margin */
+/* Start Position */
+
+.p-rel {
+  position: relative;
+}
+.p-abs {
+  position: absolute;
+}
+
+/* End Position */
+/* Start colors */
+.c-black {
+  color: black;
+}
+.c-white {
+  color: white;
+}
+.c-gray {
+  color: var(--gray-color);
+}
+.c-orange {
+  color: var(--orange-color);
+}
+.c-green {
+  color: var(--green-color);
+}
+.c-blue {
+  color: var(--blue-color);
+}
+.c-red {
+  color: var(--red-color);
+}
+.bg-white {
+  background-color: white;
+}
+.bg-eee {
+  background-color: #eee;
+}
+.bg-blue {
+  background-color: var(--blue-color);
+}
+.bg-orange {
+  background-color: var(--orange-color);
+}
+.bg-green {
+  background-color: var(--green-color);
+}
+.bg-red {
+  background-color: var(--red-color);
+}
+/* End colors */
+.ty-none {
+  list-style-type: none;
+}
+/* Start Font */
+.txt-c {
+  text-align: center;
+}
+.fs-14 {
+  font-size: 14px;
+}
+.fs-16 {
+  font-size: 16px;
+}
+.fs-18 {
+  font-size: 18px;
+}
+/* ENd Font */
+@media (max-width: 767px) {
+  .block-mobile {
+    display: block;
+  }
+}
+.btn-shape {
+  background-color: var(--gray-alt-color);
+  outline: none;
+  border: none;
+  padding: 4px 12px;
+  border-radius: 5px;
+  cursor: pointer;
+}
